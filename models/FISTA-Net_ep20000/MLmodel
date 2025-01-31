@@ -1,0 +1,21 @@
+artifact_path: models/FISTA-Net_ep17000
+flavors:
+  python_function:
+    config:
+      device: null
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pytorch
+    pickle_module_name: mlflow.pytorch.pickle_module
+    python_version: 3.9.1
+  pytorch:
+    code: null
+    model_data: data
+    pytorch_version: 2.5.1+cu124
+mlflow_version: 2.19.0
+model_size_bytes: 87528
+model_uuid: 3d749dee51b140549f459c1bb1ed2002
+run_id: a7f7899e0ad043c68319cea0e6a7d548
+utc_time_created: '2025-01-21 07:02:36.877200'
