@@ -2,7 +2,15 @@
 
 This is the code base for the paper **Sparse dictionary learning neural networks for ECG signal denoising**.
 
-Before running the notebooks, start an MLflow Tracking server with the following command:
+## K-SVD dictionary learning
+
+To learn a new dictionary with K-SVD, run `KSVD_dictionary-learning.ipynb`.
+
+The dictionary used for sparse approximation in the paper was saved in the `data/dictionary_BW_real_data.npy` file.
+
+## FISTA-Net sparse approximation
+
+Before running the FISTA-Net training notebooks, start an MLflow Tracking server with the following command:
 ```shell
 mlflow server --host 127.0.0.1 --port 8080
 ```

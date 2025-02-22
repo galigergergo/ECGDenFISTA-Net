@@ -2,7 +2,7 @@ import torch
 import mlflow
 import numpy as np
 from tqdm import tqdm
-from src.utils import plot_y_comp, plot_x_comp
+from src.FISTANet.utils import plot_y_comp, plot_x_comp
 
 
 class FISTANetTrainer():
